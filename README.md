@@ -34,7 +34,7 @@ The content of this repository includes a "main.py" file that extracts usernames
      
 5. **Run the Script**:
    - Open a terminal or command prompt and navigate to the directory where you downloaded the IG_unfollow repository.
-   - Execute the `main.py` script from the IG_unfollow repository directory, providing the paths to the HTML files as arguments.
+   - Execute the `main.py` script from the IG_unfollow repository directory:
      ```bash
      python main.py following.html followers.html
      ```
