@@ -1,6 +1,6 @@
-### IGUnfollow2
+### IG_unfollow
 
-IGUnfollow2 is a Python script that helps you identify users on Instagram whom you are following, but who do not follow you back.
+IG_unfollow is a Python script that helps you identify users on Instagram whom you are following, but who do not follow you back.
 
 #### How it Works
 
