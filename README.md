@@ -16,8 +16,8 @@ IG_unfollow parses the HTML of your "following" and "followers" pages on Instagr
    - Click on "Followers" and scroll down to load all your followers.
    - Press Ctrl-Shift-I to open the HTML code inspection window.
    - Right-click on the &lt;html&gt; tag at the top and select "Edit as HTML".
-   - Copy everything and paste it into the file called "followers.html".
-   - Repeat the procedure for the "Following" section and paste the result into the file calles "following.html".
+   - Copy everything (to facilitate, press Ctrl-A and Ctrl-C) and paste it into the file called "followers.html".
+   - Repeat the procedure for the "Following" section and paste the result into the file called "following.html".
 
 3. **Install Python**:
    - If you don't already have Python installed on your machine, download and install it from the [official Python website](https://www.python.org/).
