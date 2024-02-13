@@ -20,7 +20,7 @@ The content of this repository includes a "main.py" file that extracts usernames
    - Click on "Followers" and scroll down to load all your followers.
    - Press Ctrl-Shift-I to open the HTML code inspection window.
    - Right-click on the &lt;html&gt; tag at the top and select "Edit as HTML".
-   - Copy everything (to facilitate, press Ctrl-A and Ctrl-C) and paste it into the file called "followers.html".
+   - Copy everything (to facilitate, press Ctrl-A and Ctrl-C) and paste it into the file called "followers.html", you can use any text editor, such as Notepad.
    - Repeat the procedure for the "Following" section and paste the result into the file called "following.html".
 
 3. **Install Python**:
