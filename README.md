@@ -4,7 +4,7 @@ IG_unfollow is a Python script that helps you identify users on Instagram whom y
 
 #### How it Works
 
-IG_unfollow parses the HTML of your "following" and "followers" pages on Instagram, extracts the usernames, and then compares the two lists to identify users whom you follow, but who do not follow you back. This script operates entirely on your local machine and does not transfer any data online.
+IG_unfollow parses the HTML of your "following" and "followers" pages on Instagram, extracts the usernames, and then compares the two lists to identify users whom you follow, but who do not follow you back. This script operates entirely on your local machine and does not transfer any data online. There is no risk of Instagram banning because the script does not require logging into Instagram. The user will log in on their own browser and will only copy the HTML content of the web page.
 
 #### Content
 
