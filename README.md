@@ -8,15 +8,15 @@ IGUnfollow2 parses the HTML of your "following" and "followers" pages on Instagr
 
 #### Usage
 
-1. **Download the HTML Files**: Navigate to your Instagram profile, click on the "Following" and "Followers" tabs, and save the HTML of both pages to your computer.
+1. **Download the HTML Files**: Navigate to your Instagram profile, click on the "Following" and "Followers" tabs, and save the HTML of both pages to your computer. To do this, open your Instagram profile in your browser. Once you've clicked on "Followers," scroll down the window that opens to load all your followers. After doing this, press Ctrl-Shift-I to open the HTML code inspection window. Right-click on the <html> tag at the top and select "Edit as HTML". Then, copy everything (for example with Ctrl-A and Ctrl-C) and paste the content into the file called "followers.html". To paste into "followers.html", open this file with any text editor, such as Notepad. Repeat the procedure for the "Following" section.
 
-2. **Run the Script**: Execute the `main.py` script and provide the paths to the HTML files as arguments.
+3. **Run the Script**: Execute the `main.py` script and provide the paths to the HTML files as arguments.
 
     ```bash
     python main.py following.html followers.html
     ```
 
-3. **Review the Results**: The script will output the usernames of users you follow but who do not follow you back.
+4. **Review the Results**: The script will output the usernames of users you follow but who do not follow you back.
 
 #### Requirements
 
