@@ -8,22 +8,35 @@ IG_unfollow parses the HTML of your "following" and "followers" pages on Instagr
 
 #### Usage
 
-1. **Download the HTML Files**: Navigate to your Instagram profile, click on the "Following" and "Followers" tabs, and save the HTML of both pages to your computer. To do this, open your Instagram profile in your browser. Once you've clicked on "Followers," scroll down the window that opens to load all your followers. After doing this, press Ctrl-Shift-I to open the HTML code inspection window. Right-click on the <html> tag at the top and select "Edit as HTML". Then, copy everything (for example with Ctrl-A and Ctrl-C) and paste the content into the file called "followers.html". To paste into "followers.html", open this file with any text editor, such as Notepad. Repeat the procedure for the "Following" section.
+1. **Download the IG_unfollow Repository**:
+   - Download the contents of this GitHub repository to your local machine.
+     
+2. **Download the HTML Files**:
+   - Open your Instagram profile in your browser.
+   - Click on "Followers" and scroll down to load all your followers.
+   - Press Ctrl-Shift-I to open the HTML code inspection window.
+   - Right-click on the <html> tag at the top and select "Edit as HTML".
+   - Copy everything and paste it into the file called "followers.html".
+   - Repeat the procedure for the "Following" section and paste the result into the file calles "following.html".
 
-2. **Install Python**: If you don't already have Python installed on your machine, you can download and install it from the [official Python website](https://www.python.org/).
+3. **Install Python**:
+   - If you don't already have Python installed on your machine, download and install it from the [official Python website](https://www.python.org/).
 
-3. **Install BeautifulSoup**: You also need to install the BeautifulSoup library to run this script. You can do this using pip, the Python package manager. Open a terminal or command prompt and run the following command:
+4. **Install BeautifulSoup**:
+   - Install the BeautifulSoup library using pip, the Python package manager. Open a terminal or command prompt and run the following command:
+     ```bash
+     pip install beautifulsoup4
+     ```
+     
+5. **Run the Script**:
+   - Open a terminal or command prompt and navigate to the directory where you downloaded the IG_unfollow repository.
+   - Execute the `main.py` script from the IG_unfollow repository directory, providing the paths to the HTML files as arguments.
+     ```bash
+     python main.py following.html followers.html
+     ```
 
-    ```bash
-    pip install beautifulsoup4
-    ```
-3. **Run the Script**: Execute the `main.py` script and provide the paths to the HTML files as arguments.
-
-    ```bash
-    python main.py following.html followers.html
-    ```
-
-4. **Review the Results**: The script will output the usernames of users you follow but who do not follow you back.
+6. **Review the Results**:
+   - The script will output the usernames of users you follow but who do not follow you back.
 
 #### Requirements
 
@@ -37,4 +50,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 #### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
