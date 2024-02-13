@@ -6,10 +6,14 @@ IG_unfollow is a Python script that helps you identify users on Instagram whom y
 
 IG_unfollow parses the HTML of your "following" and "followers" pages on Instagram, extracts the usernames, and then compares the two lists to identify users whom you follow, but who do not follow you back. This script operates entirely on your local machine and does not transfer any data online.
 
+#### Content
+
+The content of this repository includes a "main.py" file that extracts usernames from HTML files and identifies who doesn't follow you back, along with two files "following.html" and "followers.html" where the HTML content should be pasted.
+
 #### Usage
 
 1. **Download the IG_unfollow Repository**:
-   - Download the contents of this GitHub repository to your local machine.
+   - Download the contents of this GitHub repository to your local machine. 
      
 2. **Download the HTML Files**:
    - Open your Instagram profile in your browser.
