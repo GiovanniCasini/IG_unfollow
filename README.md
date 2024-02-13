@@ -15,7 +15,7 @@ The content of this repository includes a "main.py" file that extracts usernames
 1. **Download the IG_unfollow Repository**:
    - Download the contents of this GitHub repository to your local machine. 
      
-2. **Download the HTML Files**:
+2. **Prepare the HTML Files**:
    - Open your Instagram profile in your browser.
    - Click on "Followers" and scroll down to load all your followers.
    - Press Ctrl-Shift-I to open the HTML code inspection window.
